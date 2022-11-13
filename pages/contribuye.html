@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de formulario|Aprende Inglés Gratis</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<header id="header"> 
+    <div class="header_logo">
+        <img src="../imagenes/logo/logo.jpeg" alt="aprende inglés gratis>">
+</div>
+    <nav class="header_menu">
+        <ul>
+            <li><a href="../index.html">Inicio</a></li> 
+            <li><a href="./negocios.html">Negocios</a></li>
+                <ul>
+                    <il><a href="./negociosA2.html">Negocios A2</a><il>
+                </ul>
+            <li><a href="./certificaciones.html">Certificación</a></li>
+            <li><a href="./contribuye.html">Contribuye</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div>
+        <img id="foto-vertical" src="../imagenes/contribuye/smile.jpeg" alt="ingles gratis para hispanos">
+    </div>
+    <section id="form">
+        <div>
+            <h1>Contribuye con el aprendizaje de un entusiasta del inglés</h1>
+        </div>
+        <form action="enviar.php" method="get">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese nombre" required>
+            <label for="apellido">Apellidos</label>
+            <input type="text" id="apellido" placeholder="Ingrese apellidos">
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="usuario@mail.com" required>
+            <label for="checkbox">Cómo te gustaría colaborar</label>
+            <input type="checkbox" id="colaboracion"> Curador
+            <input type="checkbox" id="colaboracion"> Contenido
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="10">Por favor, deja tu mensaje.</textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer> Lorem ipsum dolor sit amet.</footer>
+</body>
+</html>
