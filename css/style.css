@@ -12,28 +12,6 @@ body {
     padding-top: 40px;
 }
 
-#principal h2 {
-    color: #78D728;
-}
-
-#principal h3 {
-    color: hotpink;
-    font-size: 20px;
-}
-
-#galeria {
-    display: grid;
-    gap: 20px;
-    border: #0688F9;
-    font-size: 14px;
-    font-style: normal;
-}
-
-#galeria .link_interno{
-    color: #F97706;
-    padding-top: 50px;
-}
-
 h1 {
     font-size: 28px;
     color: #0688F9;
@@ -65,5 +43,5 @@ a {
 footer {
     font-size: 14px;
     text-align: center;
-    color: #78D728;
+    color: midnightblue;
 }
